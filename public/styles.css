@@ -1,0 +1,59 @@
+/* Apply styles to the entire body */
+body {
+    background-color: #f0f0f0; /* Background color for the entire page */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style the main container */
+.main {
+    background-color: #fff; /* Background color for the container */
+    padding: 20px;
+    border-radius: 8px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+}
+
+.h1{
+    justify-content: center;
+    display: block;
+}
+
+/* Style form elements */
+.name,
+.email,
+.password {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-color: #0056b3; /* Button background color on hover */
+}
+
+.error{
+
+    color: red;
+    font-size: 0.7rem;
+    text-align: right;
+    margin: 1rem;
+
+}
